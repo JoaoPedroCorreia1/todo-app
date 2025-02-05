@@ -7,8 +7,7 @@ const Button = ({
   onClick,
   actionButton,
   actionButtonText,
-  bgColor,
-  ...props
+  bgColor
 }: buttonProps) => {
   return (
     <div>

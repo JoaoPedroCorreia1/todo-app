@@ -11,6 +11,7 @@ const Form = ({ children, action, className, onSubmit }: formProps) => {
         await action(formData);
         ref.current?.reset();
       }}
+      className={className}
       onSubmit={onSubmit}
       ref={ref}
     >
